@@ -1482,7 +1482,7 @@ path_BT = r"F:/personal projects/DL-Pest-Detection-Project/test/Yellow Mite/yell
 
 ```python
 # Load an image to be predicted
-class_labels_df = pd.read_csv('C:/Users/Jheel Johari/Development/projects/DL-Pest-Detection-Project/pest_dataset/Datasets/Pesticide_Dataset/Pesticides.csv')
+class_labels_df = pd.read_csv('C:/Users/RohitMukkala/Development/projects/DL-Pest-Detection-Project/pest_dataset/Datasets/Pesticide_Dataset/Pesticides.csv')
 class_labels = class_labels_df['Pest Name'].tolist() 
 img = image.load_img(path_AW, target_size=(224, 224))
 img_array = image.img_to_array(img)
@@ -1606,7 +1606,7 @@ test_steps=16
 errors, tests, error_list, error_pred_list, f1score =predictor(testing, test_steps, "Greens")
 ```
 
-    C:\Users\Jheel Johari\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+    C:\Users\RohitMukkala\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
       self._warn_if_super_not_called()
     
 
@@ -1906,7 +1906,7 @@ model.save("mobilenetv2_pest_detection_model.h5")
     Found 11129 images belonging to 132 classes.
     
 
-    C:\Users\Jheel Johari\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+    C:\Users\RohitMukkala\AppData\Roaming\Python\Python311\site-packages\keras\src\trainers\data_adapters\py_dataset_adapter.py:121: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
       self._warn_if_super_not_called()
     
 
