@@ -103,8 +103,8 @@ python predict.py --model mobilenet --image sample_leaf.jpg
 
 | Input Image | Predicted Class | Confidence |
 |-------------|----------------|-------------|
-| ![leaf](sample1.jpg) | Brown Plant Hopper | 92% |
-| ![leaf](sample2.jpg) | Aphid | 88% |
+| ![leaf](images.jpeg) | Brown Plant Hopper | 92% |
+| ![leaf](download.jpeg) | Aphid | 88% |
 
 ---
 
